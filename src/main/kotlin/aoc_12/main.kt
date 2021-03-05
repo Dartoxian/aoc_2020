@@ -1,6 +1,5 @@
 package aoc_12
 
-import aoc_07.parseRule
 import java.io.File
 import kotlin.math.absoluteValue
 
