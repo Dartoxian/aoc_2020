@@ -2,7 +2,7 @@ package aoc_01
 
 import java.io.File
 
-fun readInput(): List<Int> = File(ClassLoader.getSystemResource("aoc_01/input.txt").file)
+fun readInput(): List<Int> = File(ClassLoader.getSystemResource("aoc_01_input.txt").file)
     .readLines()
     .map(Integer::parseInt)
 
